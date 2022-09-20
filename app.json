@@ -2,6 +2,16 @@
   "expo": {
     "name": "FbAndAuth",
     "slug": "FbAndAuth",
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "456644469743374",
+          "clientToken": "ad6f905cc0472d4ca334029a8297c445",
+          "displayName": "AndAuth"
+        }
+      ]
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +34,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.basso23.FbAndAuth"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1ad50525-a4e3-44ec-b43d-d0008f9af569"
+      }
     }
   }
 }
